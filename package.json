@@ -10,10 +10,14 @@
     "slot",
     "distribution"
   ],
-    "repository" :
-    { "type" : "git"
-        , "url" : "https://www.github.com/seriousManual/unplan.git"
-    },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/seriousManual/unplan.git"
+  },
   "author": "Manuel Ernst <seriousStuff@gmx.de>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
+  }
 }
