@@ -13,3 +13,6 @@ s.setTalk(3, 0, 'asdf');
 s.setTalk(3, 2, 'foobar');
 
 console.log(slotFoo.getTalks());
+
+console.log(s._buildSlots().map(function(location) { return location.getTalks(); }));
+console.log(s._buildLocations().map(function(location) { return location.getTalks(); }));
