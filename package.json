@@ -1,0 +1,19 @@
+{
+  "name": "unplan",
+  "version": "1.0.0",
+  "description": "optimize talkdistributions onto slots on an unconference",
+  "main": "index.js",
+  "keywords": [
+    "evolutionary",
+    "algorithm",
+    "unconf",
+    "slot",
+    "distribution"
+  ],
+    "repository" :
+    { "type" : "git"
+        , "url" : "https://www.github.com/seriousManual/unplan.git"
+    },
+  "author": "Manuel Ernst <seriousStuff@gmx.de>",
+  "license": "MIT"
+}
