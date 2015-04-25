@@ -3,10 +3,13 @@ var Talk = require('./lib/Talk');
 var Schedule = require('./lib/Schedule');
 
 var s = new Schedule(4, 3);
-s.setTalk(0, 0, 123);
-s.setTalk(3, 2, 'asdf');
 
-console.log(s.getNumberLocations());
-console.log(s.getNumberSlots());
-console.log(s.getSlot(0));
-console.log(s);
+var slotFoo = s.getSlot(0);
+console.log(slotFoo.getTalks());
+
+s.setTalk(0, 0, 1);
+s.setTalk(0, 2, 123);
+s.setTalk(3, 0, 'asdf');
+s.setTalk(3, 2, 'foobar');
+
+console.log(slotFoo.getTalks());
